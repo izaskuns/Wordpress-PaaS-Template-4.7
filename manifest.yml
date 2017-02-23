@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: KB-WP-PaaS-isg
+  host: KB-WP-PaaS-isg
+  disk_quota: 1024M
+  services:
+  - myObjectStorage
+  - CDB-MySQL-KB-WP-PaaS-isg
