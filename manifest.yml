@@ -3,9 +3,9 @@ applications:
   memory: 128M
   instances: 1
   domain: mybluemix.net
-  name: KB-WP-PaaS-isg
+  name: Wordpress-PaaS-Template-4.7
   host: KB-WP-PaaS-isg
   disk_quota: 1024M
   services:
   - myObjectStorage
-  - CDB-MySQL-KB-WP-PaaS-isg
+  - MySQL-Wordpress-PaaS-Template-4.7
