@@ -21,19 +21,19 @@ error_log($mysql_config["host"], 0);
 error_log("Port");
 error_log($mysql_config["port"], 0);
 
-define('DB_NAME', $mysql_config["name"]);
-//define('DB_NAME', 'xxxx');
+//define('DB_NAME', $mysql_config["name"]);
+define('DB_NAME', 'ad_2d0cbdc980e554c');
 
 /*define('DB_USER', $mysql_config["user"]);*/
-define('DB_USER', $mysql_config["username"]);
-//define('DB_USER', 'xxx');
+//define('DB_USER', $mysql_config["username"]);
+define('DB_USER', 'b0d208ec37c35a');
 
-define('DB_PASSWORD', $mysql_config["password"]);
-//define('DB_PASSWORD', 'xxxxx');
+//define('DB_PASSWORD', $mysql_config["password"]);
+define('DB_PASSWORD', '97e1ea5f');
 
 /*define('DB_HOST', $mysql_config["host"].":".$mysql_config["port"]);*/
-define('DB_HOST', $mysql_config["hostname"].":".$mysql_config["port"]);
-// define('DB_HOST', "xxxxx".":"."3306");
+//define('DB_HOST', $mysql_config["hostname"].":".$mysql_config["port"]);
+define('DB_HOST', "us-cdbr-iron-east-04.cleardb.net".":"."3306");
 /*define('DB_PORT', $mysql_config["port"]);*/
 
 define('DB_CHARSET', 'utf8');
