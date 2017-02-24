@@ -12,9 +12,13 @@ error_log($mysql_config);
 
 error_log($mysql_config["name"], 0);
 /*error_log($mysql_config["user"], 0);*/
+error_log("Usuario");
 error_log($mysql_config["username"], 0);
+error_log("Password");
 error_log($mysql_config["password"], 0);	
+error_log("Host");
 error_log($mysql_config["host"], 0);
+error_log("Port");
 error_log($mysql_config["port"], 0);
 
 define('DB_NAME', $mysql_config["name"]);
