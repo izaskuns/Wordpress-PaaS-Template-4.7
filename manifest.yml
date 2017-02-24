@@ -4,7 +4,7 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: Wordpress-PaaS-Template-4.7
-  host: KB-WP-PaaS-isg
+  host: Wordpress-PaaS-Template-4.7
   disk_quota: 1024M
   services:
   - myObjectStorage
